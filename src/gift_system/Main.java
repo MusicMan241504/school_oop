@@ -66,7 +66,7 @@ public class Main {
 				}
 				addGift(userName, gift, recipient, price, isPurchased);
 			} else if (input.equals("v")) {
-				System.out.println("Enter user name: ")
+				System.out.println("Enter user name: ");
 				printGifts(scanner.nextLine());
 			}
 		}

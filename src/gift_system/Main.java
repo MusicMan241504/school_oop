@@ -31,7 +31,6 @@ public class Main {
 		}
 	}
 	
-
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		
@@ -69,11 +68,7 @@ public class Main {
 				System.out.println("Enter user name: ");
 				printGifts(scanner.nextLine());
 			}
-		}
-		
-		
-		System.out.println(users.get(0).getGifts());
-		
+		}		
 		scanner.close();
 	}
 
